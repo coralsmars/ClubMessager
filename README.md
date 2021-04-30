@@ -17,7 +17,7 @@ MTproto protocol manuals: https://core.telegram.org/mtproto
 
 You will require Android Studio 4.1.3, Android NDK rev. 20 and Android SDK 8.1
 
-1. Download the ClubsMananger source code from https://github.com/Nekogram/Nekogram ( git clone https://github.com/Nekogram/Nekogram.git )
+1. Download the ClubsMananger source code from https://github.com/coralsmars/ClubsMessager ( git clone https://github.com/coralsmars/ClubsMessager.git )
 2. Copy your release.keystore into TMessagesProj/config
 3. Fill out RELEASE_KEY_PASSWORD, RELEASE_KEY_ALIAS, RELEASE_STORE_PASSWORD in local.properties to access your  release.keystore
 4. Open the project in the Studio (note that it should be opened, NOT imported).
