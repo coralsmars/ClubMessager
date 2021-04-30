@@ -1,0 +1,62 @@
+{
+  "project_info": {
+    "project_number": "1089933334940",
+    "project_id": "iclubs-51077",
+    "storage_bucket": "iclubs-51077.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1089933334940:android:a26b8592ea103bfa111059",
+        "android_client_info": {
+          "package_name": "io.iclubs.chat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1089933334940-blmpqvushs34gdb21iqlfed38c0hb28h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "io.iclubs.chat",
+            "certificate_hash": "3e1635b510bca776a9dd60195513bf38cb559bc5"
+          }
+        },
+        {
+          "client_id": "1089933334940-g007sbe4q99rms4oapkkop04s2rspj05.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "io.iclubs.chat",
+            "certificate_hash": "d1c73a624a6ada484287253f86bf200b99329c96"
+          }
+        },
+        {
+          "client_id": "1089933334940-61q36bqrsd8gb48rrt9a7f36tm8t9kf7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyXnZp5ZOmA-F3CNzWpaUQKn-3Y4YObWw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1089933334940-61q36bqrsd8gb48rrt9a7f36tm8t9kf7.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1089933334940-nl8iidbfoabovlcgu685bri437qfo3fe.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "io.iclubs.chat"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
