@@ -1,9 +1,15 @@
-# ClubsMananger
+# ClubMananger
 
 [Telegram](https://telegram.org) is a messaging app with a focus on speed and security. It’s superfast, simple and free.
 
 ClubsMananger is an UNOFFICIAL app that uses Telegram's API.
 
+Google play store: https://play.google.com/store/apps/details?id=tw.nekomimi.nekogram
+Update news: https://t.me/Zuragram
+APKs: https://github.com/ClubMessager/ClubMessager/releases
+Feedback: https://github.com/ClubMessager/ClubMessager/issues
+Feedback (Chinese): https://t.me/makurabot
+Chat group (Chinese & English): Join our channel (https://t.me/ClubMessager) and click "Chat"
 
 ## API, Protocol documentation
 
@@ -17,12 +23,12 @@ MTproto protocol manuals: https://core.telegram.org/mtproto
 
 You will require Android Studio 4.1.3, Android NDK rev. 20 and Android SDK 8.1
 
-1. Download the ClubsMananger source code from https://github.com/coralsmars/ClubsMessager ( git clone https://github.com/coralsmars/ClubsMessager.git )
+1. Download the ClubsMananger source code from https://github.com/coralsmars/ClubMessager ( git clone https://github.com/coralsmars/ClubMessager.git )
 2. Copy your release.keystore into TMessagesProj/config
 3. Fill out RELEASE_KEY_PASSWORD, RELEASE_KEY_ALIAS, RELEASE_STORE_PASSWORD in local.properties to access your  release.keystore
 4. Open the project in the Studio (note that it should be opened, NOT imported).
 5. If you're compiling DEBUG version, make sure your build variants is set to afatDebugMultidex.
-6. You are ready to compile Nekogram.
+6. You are ready to compile ClubMessager.
 
 ## Localization
 
