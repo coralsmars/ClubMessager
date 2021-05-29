@@ -3331,11 +3331,11 @@
     <string name="Page5Title">強大</string>
     <string name="Page6Title">雲端</string>
     <string name="Page1Message">世界上**最快的**聊天工具\n**免費**又**安全**</string>
-    <string name="Page2Message">**Telegram** 以同類軟件中最快的速度\n為您傳遞消息</string>
-    <string name="Page3Message">**Telegram** 永久免費，無廣告\n不收取任何費用</string>
-    <string name="Page4Message">**Telegram** 保障您的消息安全\n免受黑客攻擊</string>
-    <string name="Page5Message">**Telegram** 不限制\n文件和消息大小</string>
-    <string name="Page6Message">**Telegram** 讓您能從\n多個設備收發消息</string>
+    <string name="Page2Message">**ClubsMessager** 以同類軟件中最快的速度\n為您傳遞消息</string>
+    <string name="Page3Message">**ClubsMessager** 永久免費，無廣告\n不收取任何費用</string>
+    <string name="Page4Message">**ClubsMessager** 保障您的消息安全\n免受黑客攻擊</string>
+    <string name="Page5Message">**ClubsMessager** 不限制\n文件和消息大小</string>
+    <string name="Page6Message">**ClubsMessager** 讓您能從\n多個設備收發消息</string>
     <string name="StartMessaging">開始聊天</string>
     <!-- VoIP -->
     <string name="AccountSettings">帳號設置</string>
