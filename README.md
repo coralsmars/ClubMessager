@@ -4,12 +4,11 @@
 
 ClubsMananger is an UNOFFICIAL app that uses Telegram's API.
 
-Google play store: https://play.google.com/store/apps/details?id=tw.nekomimi.nekogram
-Update news: https://t.me/Zuragram
-APKs: https://github.com/ClubMessager/ClubMessager/releases
-Feedback: https://github.com/ClubMessager/ClubMessager/issues
-Feedback (Chinese): https://t.me/makurabot
-Chat group (Chinese & English): Join our channel (https://t.me/ClubMessager) and click "Chat"
+Google play store: https://play.google.com/store/apps/details?id=io.iclubs.chat&showAllReviews=true&umt=github
+
+Update news: https://t.me/clubsmessagernews
+
+Chat group (Chinese & English): Join our channel (https://t.me/clubmessager) and click "Chat"
 
 ## API, Protocol documentation
 
