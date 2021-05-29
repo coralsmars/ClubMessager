@@ -1762,14 +1762,11 @@ JNIEXPORT void Java_org_telegram_messenger_Intro_onDrawFrame(JNIEnv *env, jclass
 
         float tt = MINf(0, (float) (-M_PI * 125. / 180. + time * M_PI * 2 * 1.5));
 
-        float dx = sinf(tt) * 75;
-        float dy = -sinf(tt) * 60;
-
-        telegram_plane.params.position = xyzMake(dx, dy, 0);
+        telegram_plane.params.position = xyzMake(1.0f, 1.0f, 0);
 
         float scale = (cosf(tt) + 1) * 0.5f;
 
-        telegram_plane.params.scale = xyzMake(cosf(tt) * scale, scale, 1);
+        telegram_plane.params.scale = xyzMake(scale, scale, 1);
 
         if (tt < D2R(125)) {
             glBlendFunc(GL_ONE, GL_ONE_MINUS_SRC_ALPHA);
@@ -2142,9 +2139,9 @@ JNIEXPORT void Java_org_telegram_messenger_Intro_onDrawFrame(JNIEnv *env, jclass
             float tt = MINf(0, (float) (-M_PI * 125.0f / 180.0f + time * M_PI * 2 * 1.5f));
             float dx = sinf(tt) * 75;
             float dy = -sinf(tt) * 60;
-            telegram_plane.params.position = xyzMake(dx, dy, 0);
+            telegram_plane.params.position = xyzMake(1, 1, 0);
             float scale = (cosf(tt) + 1) * 0.5f;
-            telegram_plane.params.scale = xyzMake(cosf(tt) * scale, scale, 1);
+            telegram_plane.params.scale = xyzMake(scale, scale, 1);
 
             if (tt < D2R(125)) {
                 glBlendFunc(GL_ONE, GL_ONE_MINUS_SRC_ALPHA);
@@ -2162,7 +2159,7 @@ JNIEXPORT void Java_org_telegram_messenger_Intro_onDrawFrame(JNIEnv *env, jclass
             float dx = (float) sin(tt) * 75;
             float dy = (float) -sin(tt) * 60;
 
-            telegram_plane.params.position = xyzMake(dx, dy, 0);
+            telegram_plane.params.position = xyzMake(1, 1, 0);
 
             float scale = (float) (cos(tt) + 1) * 0.5f;
 
@@ -2691,8 +2688,8 @@ JNIEXPORT void Java_org_telegram_messenger_Intro_onSurfaceCreated(JNIEnv *env, j
     mask1 = create_rounded_rectangle(CSizeMake(60, 60), 0, 16, black_color);
 
     telegram_sphere = create_textured_rectangle(CSizeMake(150, 150), telegram_sphere_texture);
-    telegram_plane = create_textured_rectangle(CSizeMake(82, 74), telegram_plane_texture);
-    telegram_plane.params.anchor = xyzMake(6, -5, 0);
+    telegram_plane = create_textured_rectangle(CSizeMake(150, 150), telegram_plane_texture);
+    //telegram_plane.params.anchor = xyzMake(6, -5, 0);
 
     fast_body = create_textured_rectangle(CSizeMake(148, 148), fast_body_texture);
 
