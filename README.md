@@ -4,7 +4,7 @@
 
 ClubsMananger is an UNOFFICIAL app that uses Telegram's API.
 
-Google play store: https://play.google.com/store/apps/details?id=io.iclubs.chat&showAllReviews=true&umt=github
+Google play store: https://play.google.com/store/apps/details?id=io.iclubs.chat&umt=github
 
 Update news: https://t.me/clubsmessagernews
 
