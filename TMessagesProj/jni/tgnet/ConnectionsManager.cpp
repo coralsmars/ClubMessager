@@ -43,6 +43,7 @@ static bool done = false;
 
 ConnectionsManager::ConnectionsManager(int32_t instance) {
     instanceNum = instance;
+    if (LOGS_ENABLED) DEBUG_W("ConnectionsManager start create: %d", instance);
     if ((epolFd = epoll_create(128)) == -1) {
         if (LOGS_ENABLED) DEBUG_E("unable to create epoll instance");
         exit(1);
@@ -118,6 +119,8 @@ ConnectionsManager::ConnectionsManager(int32_t instance) {
     }
 
     pthread_mutex_init(&mutex, NULL);
+
+    if (LOGS_ENABLED) DEBUG_W("ConnectionsManager start create over: %d", instance);
 }
 
 ConnectionsManager::~ConnectionsManager() {
@@ -133,6 +136,8 @@ ConnectionsManager::~ConnectionsManager() {
 }
 
 ConnectionsManager& ConnectionsManager::getInstance(int32_t instanceNum) {
+
+    if (LOGS_ENABLED) DEBUG_W("ConnectionsManager getInstance %d", instanceNum);
     switch (instanceNum) {
         case 0:
             static ConnectionsManager instance0(0);
@@ -141,9 +146,24 @@ ConnectionsManager& ConnectionsManager::getInstance(int32_t instanceNum) {
             static ConnectionsManager instance1(1);
             return instance1;
         case 2:
-        default:
             static ConnectionsManager instance2(2);
             return instance2;
+        case 3:
+            static ConnectionsManager instance3(3);
+            return instance3;
+        case 4:
+            static ConnectionsManager instance4(4);
+            return instance4;
+        case 5:
+            static ConnectionsManager instance5(5);
+            return instance5;
+        case 6:
+            static ConnectionsManager instance6(6);
+            return instance6;
+       case 7:
+       default:
+            static ConnectionsManager instance7(7);
+            return instance7;
     }
 }
 
