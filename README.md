@@ -6,9 +6,35 @@ ClubsMananger is an UNOFFICIAL app that uses Telegram's API.
 
 Google play store: https://play.google.com/store/apps/details?id=io.iclubs.chat&umt=github
 
-Update news: https://t.me/clubsmessagernews
+Offical Channel: https://t.me/clubmsgr
 
-Chat group (Chinese & English): Join our channel (https://t.me/clubmessager) and click "Chat"
+Offical Group: (Chinese & English): (https://t.me/clubschat) and click "Join"
+
+New features:
+
+Chat-ShortCuts MENU, Make you to chat with your friends more faster!
+Copy Message's translation
+Video Playback Speeds: Video can be played with 5 Playback Speeds.
+Screen Sharing in Video Calls
+Video Messages
+Other improvements & fixed Bugs.
+
+==============更新日志=============
+
+正式版本7.9.3(1)版本-对应Telegram官方v7.9.3版本
+
+更新日志-特性
+
+1、完美支持中文简体/中文繁体（台湾/港澳地区）等
+
+2、最多支持8个帐户同时登录、自由切换
+
+3、消息翻译
+
+4、快捷聊天菜单
+
+#ClubMessager 7.9.3.1 updated https://play.google.com/store/apps/details?id=io.iclubs.chat
+
 
 ## API, Protocol documentation
 
