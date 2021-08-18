@@ -12,12 +12,17 @@ Offical Group: (Chinese & English): (https://t.me/clubschat) and click "Join"
 
 New features:
 
-Chat-ShortCuts MENU, Make you to chat with your friends more faster!
-Copy Message's translation
-Video Playback Speeds: Video can be played with 5 Playback Speeds.
-Screen Sharing in Video Calls
-Video Messages
-Other improvements & fixed Bugs.
+1、Chat-ShortCuts MENU, Make you to chat with your friends more faster!
+
+2、Copy Message's translation
+
+3、Video Playback Speeds: Video can be played with 5 Playback Speeds.
+
+4、Screen Sharing in Video Calls
+
+5、Video Messages
+
+6、Other improvements & fixed Bugs.
 
 ==============更新日志=============
 
